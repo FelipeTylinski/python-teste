@@ -1,4 +1,4 @@
-i = (15)
-a = (15)
+i = int(input("Digite um valor"))
+a = int(input("Digite outro valor"))
 
-print(i + a)
+print( i + a)

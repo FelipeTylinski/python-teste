@@ -1,12 +1,15 @@
 while True:
-    i = int(input("Digite sua idade:(ou digite 0 para sair)"))
 
-    if i ==0:
+ idade = int(input("Digite sua idade:(Ou digite 0 para sair)"))
+ 
+ if idade == 0:
      print("saindo..")
-    break
+     break
+altura = float(input("Digite sua altura:"))
 
-if i >18:
- print("pode entrar na balada")
+
+if idade >=18 and altura >=1.60:
+     print("Você pode entrar na balada")
 
 else:
- print("nao pode entrar na balada")
+     print("Você não pode entrar na balada")

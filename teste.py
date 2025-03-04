@@ -1,4 +1,12 @@
-i = int(input("Digite um valor"))
-a = int(input("Digite outro valor"))
+while True:
+    i = int(input("Digite sua idade:(ou digite 0 para sair)"))
 
-print( i + a)
+    if i ==0:
+     print("saindo..")
+    break
+
+if i >18:
+ print("pode entrar na balada")
+
+else:
+ print("nao pode entrar na balada")
